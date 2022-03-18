@@ -1,0 +1,12 @@
+# WARNING
+# This file should not be checked into version control
+# It is now because this is a demo repository
+
+version: "3.7"
+
+services:
+  yanzi-to-mqtt:
+    environment:
+      CIRRUS_USERNAME: "YOUR_EMAIL"
+      CIRRUS_PASSWORD: "YOUR_PASSWORD"
+      LOCATION_ID: "872855"
